@@ -18,6 +18,7 @@ header {
 .logo {
     width: 100px;
     display: block;
+    margin: 0.5em;
 }
 
 nav {
@@ -44,5 +45,26 @@ li a:hover {
 }
 
 .ikoner {
+    
+}
 
+h1 {
+    margin-top: 0.5em;
+    text-align: center; 
+}
+
+.brødkrumme {
+    margin: 0.3em 0.5em;
+}
+
+div {
+    display: flex;
+    margin: 2em 3.5em;
+}
+
+.linje1 {
+    aspect-ratio: 1/1;
+    width: 24%;
+    border-radius: 15px;
+    padding: 0.5em;
 }
