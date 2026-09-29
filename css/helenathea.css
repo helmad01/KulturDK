@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: inter, sans-serif;
 }
 
 body {
@@ -48,7 +48,7 @@ li a:hover {
     
 }
 
-h1 {
+.overskrift {
     margin-top: 0.5em;
     text-align: center; 
 }
@@ -67,4 +67,16 @@ div {
     width: 24%;
     border-radius: 15px;
     padding: 0.5em;
+}
+
+.banner-img {
+height: 400px;
+object-fit: cover;
+object-position: center 35%;
+}
+
+h1,h3 {
+    color: #333333;
+    text-align: left;
+    margin: 1.5em 4.5em;
 }
