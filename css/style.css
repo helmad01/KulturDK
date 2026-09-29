@@ -81,6 +81,7 @@ div {
 height: 400px;
 object-fit: cover;
 object-position: center 35%;
+width: 100%;
 }
 
 h1,h3 {
