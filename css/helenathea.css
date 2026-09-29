@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #fffdeb;
+}
+
+header {
+    background-color: #48110a;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+}
+
+nav {
+    padding: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 1.5em;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+        border-bottom: 2px solid #ffffff;
+}
+
+li a:hover {
+    color: #d7d7d7;
+}
+
+.ikoner {
+
+}
