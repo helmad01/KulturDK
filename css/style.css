@@ -1,3 +1,90 @@
 * {
-    
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inter, sans-serif;
+}
+
+body {
+    background-color: #fffdeb;
+}
+
+header {
+    background-color: #48110a;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin: 0.5em;
+}
+
+.ikon {
+    float: right;
+
+}
+
+nav {
+    padding: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 1.5em;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+        border-bottom: 2px solid #ffffff;
+}
+
+li a:hover {
+    color: #d7d7d7;
+}
+
+.ikoner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 1rem 0 auto;
+}
+
+.overskrift {
+    margin-top: 0.5em;
+    text-align: center; 
+}
+
+.brødkrumme {
+    margin: 0.3em 0.5em;
+}
+
+div {
+    display: flex;
+    margin: 2em 3.5em;
+}
+
+.linje1 {
+    aspect-ratio: 1/1;
+    width: 24%;
+    border-radius: 15px;
+    padding: 0.5em;
+}
+
+.banner-img {
+height: 400px;
+object-fit: cover;
+object-position: center 35%;
+}
+
+h1,h3 {
+    color: #333333;
+    text-align: left;
+    margin: 1.5em 4.5em;
 }

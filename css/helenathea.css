@@ -21,6 +21,11 @@ header {
     margin: 0.5em;
 }
 
+.ikon {
+    float: right;
+
+}
+
 nav {
     padding: 0;
 }
@@ -45,7 +50,10 @@ li a:hover {
 }
 
 .ikoner {
-    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 1rem 0 auto;
 }
 
 .overskrift {
