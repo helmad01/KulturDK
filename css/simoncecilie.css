@@ -63,3 +63,54 @@ li a:hover {
 padding: 0.3em 0.5em;
 background-color: #eee5c7;
 }
+
+img {
+    width:100%;
+}
+
+.banner-img {
+height: 450px;
+object-fit: cover;
+object-position: center 55%;
+}
+
+h1 {
+    color: #333333;
+    text-align: left;
+    margin: 1.2em 3.0em;
+}
+
+h2 {
+    color: #333333;
+    text-align: left;
+    margin: 1.5em 4em;
+}
+
+.tekst {
+font-size: 1.2em;
+line-height: 1.2em;
+margin: 1.2em 5em;
+}
+
+.galleri-container{
+    margin: 2em 5em;
+    }
+
+.galleri {
+
+    aspect-ratio: 1/1;
+    width: 19%;
+    border-radius: 10%;
+    object-fit: cover;
+    padding: 0.1em;
+}
+
+.stiftinfo {
+    margin: 2em 5em;
+}
+
+.stiftinfo {
+  display: flex;
+  gap: 95px;
+  justify-content: flex-start;
+}
