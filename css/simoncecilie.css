@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inter, sans-serif;
+}
+
+body {
+    background-color: #fffdeb;
+}
+
+/*Header*/
+header {
+    background-color: #48110a;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin: 0.5em;
+}
+
+nav {
+    padding: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 1.5em;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #d7d7d7;
+    border-bottom: 2px solid #ffffff;
+}
+
+.ikoner {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem 0 auto;
+}
+
+.ikon {
+    display: flex;
+    margin: 0 1em;
+}
+
+/*Forside*/
+.brødkrumme {
+padding: 0.3em 0.5em;
+background-color: #eee5c7;
+}
