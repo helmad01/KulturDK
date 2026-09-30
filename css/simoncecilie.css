@@ -1,0 +1,119 @@
+<<<<<<< HEAD
+=======
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inter, sans-serif;
+}
+
+body {
+    background-color: #fffdeb;
+}
+
+/*Header*/
+header {
+    background-color: #48110a;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin: 0.5em;
+}
+
+nav {
+    padding: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 1.5em;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #d7d7d7;
+    border-bottom: 2px solid #ffffff;
+}
+
+.ikoner {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem 0 auto;
+}
+
+.ikon {
+    display: flex;
+    margin: 0 1em;
+}
+
+/*Forside*/
+.brødkrumme {
+padding: 0.3em 0.5em;
+background-color: #eee5c7;
+}
+
+img {
+    width:100%;
+}
+
+.banner-img {
+height: 450px;
+object-fit: cover;
+object-position: center 55%;
+}
+
+h1 {
+    color: #333333;
+    text-align: left;
+    margin: 1.2em 3.0em;
+}
+
+h2 {
+    color: #333333;
+    text-align: left;
+    margin: 1.5em 4em;
+}
+
+.tekst {
+font-size: 1.2em;
+line-height: 1.2em;
+margin: 1.2em 5em;
+}
+
+.galleri-container{
+    margin: 2em 5em;
+    }
+
+.galleri {
+
+    aspect-ratio: 1/1;
+    width: 19%;
+    border-radius: 10%;
+    object-fit: cover;
+    padding: 0.1em;
+}
+
+.stiftinfo {
+    margin: 2em 5em;
+}
+
+.stiftinfo {
+  display: flex;
+  gap: 95px;
+  justify-content: flex-start;
+}
+>>>>>>> 5214830a72986110278729264042f092ee2c4833
