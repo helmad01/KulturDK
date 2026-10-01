@@ -153,21 +153,8 @@ footer {
 }
 
 .visitdk {
-    width: 10em;
-}
-
-/*Forside*/
-.banner-img {
-    height: 400px;
-    object-fit: cover;
-    object-position: center 35%;
-    width: 100%;
-}
-
-h1,h3 {
-    color: #333333;
-    text-align: left;
-    margin: 1.5em 4.5em;
+        width: 8em;
+        height: 4em;
 }
 
 /*Oplevelser*/
